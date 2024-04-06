@@ -1,0 +1,58 @@
+body{
+    background: url("home1.jpg");
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        }
+h1 {
+    opacity: 0;
+    transform: translateY(-50px);
+    color: #ceb7ff;
+    animation: fadeInAndSlide 4.5s ease-out forwards;
+}
+
+.box1{
+    width: 400px;
+    height: 200px;
+    background: url(homebox.jpg); 
+    color: #0c0a0a; 
+    text-align: center; 
+    line-height: 200px; 
+    border-radius: 20px; 
+    box-shadow: 2px 2px 5px rgba(232, 192, 237, 0.968);
+    opacity: 0;
+    animation: fadeIn 3s ease-out 4.5s forwards;
+}
+@keyframes fadeInAndSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.home{
+    border-radius: 15px;
+    background-color: antiquewhite;
+    text-decoration: double;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 40px;
+}
+.home:hover{
+    background-color: #b299e7;
+}
