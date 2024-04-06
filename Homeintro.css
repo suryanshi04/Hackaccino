@@ -1,5 +1,7 @@
 body{
     background: url("home1.jpg");
+    background-color: #0f0606;
+    text-size-adjust: 150px;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -9,16 +11,18 @@ body{
         }
 h1 {
     opacity: 0;
+    font-size: 100px;
     transform: translateY(-50px);
     color: #ceb7ff;
     animation: fadeInAndSlide 4.5s ease-out forwards;
 }
 
 .box1{
-    width: 400px;
+    width: 460px;
     height: 200px;
     background: url(homebox.jpg); 
     color: #0c0a0a; 
+    font: 80px;
     text-align: center; 
     line-height: 200px; 
     border-radius: 20px; 
@@ -50,9 +54,9 @@ h1 {
     background-color: antiquewhite;
     text-decoration: double;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 150px;
-    height: 40px;
+    width: 180px;
+    height: 60px;
 }
 .home:hover{
-    background-color: #b299e7;
+    background-color: #c67474;
 }
