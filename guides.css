@@ -1,0 +1,127 @@
+body{
+    
+    background-image: linear-gradient(to bottom,rgba(21, 95, 104, 0.999), #135D66, rgba(119, 176, 170, 0.686));
+    background-size: cover;
+
+}
+.div {
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+    border-color: rgba(240, 241, 243, 1);
+    border-style: solid;
+    border-right-width: 1px;
+    background-color: #fff;
+    display: flex;
+    max-width: 283px;
+    flex-direction: column;
+    font-size: 16px;
+    color: var(--Grey-grey-600, #5d6679);
+    font-weight: 500;
+    line-height: 150%;
+    padding: 24px 24px 28px;
+  }
+  .div-2 {
+    color: var(--Primary-primary-500, #1570ef);
+    text-align: center;
+    align-self: start;
+    font: 600 20px Inter, sans-serif;
+  }
+  .div-3 {
+    display: flex;
+    margin-top: 56px;
+    width: 186px;
+    max-width: 100%;
+    gap: 16px;
+    color: var(--Primary-primary-500, #1570ef);
+    white-space: nowrap;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 24px;
+  }
+  .div-4 {
+    font-family: Inter, sans-serif;
+  }
+  .div-5 {
+    display: flex;
+    margin-top: 44px;
+    width: 186px;
+    max-width: 100%;
+    gap: 16px;
+    white-space: nowrap;
+  }
+  .div-6 {
+    font-family: Inter, sans-serif;
+  }
+  .div-7 {
+    display: flex;
+    margin-top: 44px;
+    width: 186px;
+    max-width: 100%;
+    gap: 16px;
+  }
+  .div-8 {
+    font-family: Inter, sans-serif;
+  }
+  .div-9 {
+    display: flex;
+    margin-top: 44px;
+    width: 186px;
+    max-width: 100%;
+    gap: 16px;
+    white-space: nowrap;
+  }
+  .div-10 {
+    font-family: Inter, sans-serif;
+  }
+  .div-11 {
+    display: flex;
+    margin-top: 44px;
+    width: 186px;
+    max-width: 100%;
+    gap: 16px;
+  }
+  .div-12 {
+    font-family: Inter, sans-serif;
+  }
+  .div-13 {
+    display: flex;
+    margin-top: 44px;
+    width: 186px;
+    max-width: 100%;
+    gap: 16px;
+    color: #1570ef;
+  }
+  .div-14 {
+    font-family: Inter, sans-serif;
+  }
+  .div-15 {
+    align-self: stretch;
+    display: flex;
+    margin-top: 202px;
+    flex-direction: column;
+    padding: 16px;
+  }
+  .div-16 {
+    display: flex;
+    gap: 16px;
+    white-space: nowrap;
+  }
+  .div-17 {
+    font-family: Inter, sans-serif;
+  }
+  .div-18 {
+    display: flex;
+    margin-top: 44px;
+    gap: 16px;
+  }
+  .div-19 {
+    font-family: Inter, sans-serif;
+  }
+
+
+
+  

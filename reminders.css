@@ -1,0 +1,22 @@
+body{
+    
+        background-image: linear-gradient(to bottom,rgba(21, 95, 104, 0.999), #135D66, rgba(119, 176, 170, 0.686));
+        background-size: cover;
+    
+}
+input{
+    background-color:  rgba(119, 176, 170, 0.686);
+    width: 80%;
+    height: 7%;
+    margin-bottom: 10px;
+    border-style: hidden;
+    border-radius: 3px;
+}
+p{
+    background-color: rgba(119, 176, 170, 0.686);
+    width: 80%;
+    height: 7%;
+    margin-bottom: 50px;
+    border-style: hidden;
+    border-radius: 3px;
+}
